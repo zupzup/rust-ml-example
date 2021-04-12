@@ -1,0 +1,13 @@
+[package]
+name = "rust-ml-example"
+version = "0.1.0"
+authors = ["Mario Zupan <mario@zupzup.org>"]
+edition = "2018"
+
+[dependencies]
+linfa = { version = "0.3.1", features = ["openblas-system"] }
+linfa-logistic = "0.3.1"
+ndarray = { version = "0.13", default-features = false }
+ndarray-csv = "0.4"
+csv = "1.1"
+plotlib = "0.5.1"
